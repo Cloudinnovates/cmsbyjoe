@@ -1,0 +1,16 @@
+AddType php5-cgi php
+
+<IfModule mod_rewrite.c>
+
+<FilesMatch ".(eot|ttf|otf|woff)">
+	Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
+
+#RewriteRule ^sitemap.xml$ {YOUR_DOMAIN}/sitemap [R=301,L]
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L]
+</IfModule>
