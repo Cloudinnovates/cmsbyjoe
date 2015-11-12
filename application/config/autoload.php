@@ -52,7 +52,7 @@ $autoload['packages'] = array(APPPATH.'third_party');
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array('database', 'session', 'form_validation', 'erkanaauth', 'navigation');
+$autoload['libraries'] = array('database', 'session', 'form_validation', 'erkanaauth');
 
 
 /*
@@ -64,7 +64,7 @@ $autoload['libraries'] = array('database', 'session', 'form_validation', 'erkana
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array('url', 'form', 'html', 'text', 'date', 'mls', 'typography', 'debug');
+$autoload['helper'] = array('url', 'form', 'html', 'text', 'date', 'typography', 'debug');
 
 
 /*
@@ -109,7 +109,7 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array('Pages_model', 'Sales_model', 'Posts_model', 'Reviews_model');
+$autoload['model'] = array('Pages_model', 'Posts_model', 'Reviews_model');
 
 
 /* End of file autoload.php */
