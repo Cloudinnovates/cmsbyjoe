@@ -1,0 +1,22 @@
+{
+  "name": "CMSbyJoe",
+  "description": "Is Awesome",
+  "author": "Joseph R. B. Taylor",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-imagemin": "*",
+    "grunt-cssc": "*",
+    "matchdep": "*",
+    "dalekjs": "0.0.9",
+    "dalek-browser-chrome": "0.0.11",
+    "dalek-reporter-html": "0.0.4",
+    "grunt-ftp-push": "^0.3.4",
+    "grunt-notify": "^0.4.1",
+    "grunt-contrib-jshint": "^0.11.2"
+  }
+}
