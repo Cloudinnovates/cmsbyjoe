@@ -1,2 +1,2 @@
 # cmsbyjoe
-A Codeigniter powered CMS
+A Codeigniter 3.0 powered CMS
